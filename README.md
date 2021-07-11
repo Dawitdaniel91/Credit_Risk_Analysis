@@ -28,7 +28,7 @@ Finaly for Deliverable 3, By using your knowledge of the imblearn.ensemble libra
  
  ### Deliverable 1: Use Resampling Models to Predict Credit Risk
  
- ##### Table 1: Balanced Random Forest Classifier
+ ##### Results Table 1: Balanced Random Forest Classifier
  
  ![image](https://user-images.githubusercontent.com/80365882/125183263-f92bb780-e1c9-11eb-95e2-5a66c52b7930.png)
 
@@ -36,7 +36,7 @@ Finaly for Deliverable 3, By using your knowledge of the imblearn.ensemble libra
  
   ### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
   
-  ##### Table 2: Easy Ensemble AdaBoost Classifier
+  ##### Results Table 2: Easy Ensemble AdaBoost Classifier
   
  ![image](https://user-images.githubusercontent.com/80365882/125183271-09dc2d80-e1ca-11eb-86fc-200bc2db9d42.png)
 
@@ -45,23 +45,30 @@ The above Results of SMOTEENN algorithm to Predict Credit Risk show us, The bala
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
  
- 
- ##### Table 3: Naive Random Oversampling
+  ##### Results Table 3: Naive Random Oversampling
  
 ![image](https://user-images.githubusercontent.com/80365882/125183304-62abc600-e1ca-11eb-802d-d5745b32aed2.png)
  
+ Naive Random Oversampling results: Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 66%
  
- ##### Table 4: SMOTE Oversampling
+ ##### Results Table 4: SMOTE Oversampling
   
 ![image](https://user-images.githubusercontent.com/80365882/125183311-70614b80-e1ca-11eb-8f31-812160033e43.png)
 
- ##### Table 5: Undersampling
+SMOTE oversampling results: the accuracy score is 63%, the precision for the high_risk loans has a low positvity again at 1% and recall is 64% overall
+
+ ##### Results Table 5: Undersampling
  
 ![image](https://user-images.githubusercontent.com/80365882/125183315-7c4d0d80-e1ca-11eb-8b39-598f57880c46.png)
+
+Undersampling results: balanced accuracy score is 53% overall, the precision is at 100% and the recall is 45%
  
-  ##### Table 6: Combination (Over and Under) Sampling
+  ##### Results Table 6: Combination (Over and Under) Sampling
   
 ![image](https://user-images.githubusercontent.com/80365882/125183323-8838cf80-e1ca-11eb-84ba-88bb81ce0561.png)
+
+Combination(over and undersampling) results: balanced accuracy score is 62% the precision is 100% and the recall is 54% overall
+
 
  
  
