@@ -36,7 +36,7 @@ Finaly for Deliverable 3, By using your knowledge of the imblearn.ensemble libra
  
   ### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
   
-  ##### Table 1 Easy Ensemble AdaBoost Classifier
+  ##### Table 2: Easy Ensemble AdaBoost Classifier
   
  ![image](https://user-images.githubusercontent.com/80365882/125183271-09dc2d80-e1ca-11eb-86fc-200bc2db9d42.png)
 
@@ -46,7 +46,7 @@ The above Results of SMOTEENN algorithm to Predict Credit Risk show us, The bala
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
  
  
- ##### Table 5: Naive Random Oversampling
+ ##### Table 3: Naive Random Oversampling
  
 ![image](https://user-images.githubusercontent.com/80365882/125183304-62abc600-e1ca-11eb-802d-d5745b32aed2.png)
  
