@@ -49,26 +49,30 @@ The above Results of SMOTEENN algorithm to Predict Credit Risk show us, The bala
  
 ![image](https://user-images.githubusercontent.com/80365882/125183304-62abc600-e1ca-11eb-802d-d5745b32aed2.png)
  
- Naive Random Oversampling results: Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 66%
+The above Results of Naive Random Oversampling show us, The balanced accuracy score is 66%.The high_risk precision is about 1% only with 66% sensitivity which makes a F1 of 2%.The low_risk population, its precision is almost 100% with a sensitivity of 67%.
+ 
  
  ##### Results Table 4: SMOTE Oversampling
   
 ![image](https://user-images.githubusercontent.com/80365882/125183311-70614b80-e1ca-11eb-8f31-812160033e43.png)
 
-SMOTE oversampling results: the accuracy score is 63%, the precision for the high_risk loans has a low positvity again at 1% and recall is 64% overall
+The above SMOTE Oversampling show us, The balanced accuracy score is 63%.The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2%.The low_risk population, its precision is almost 100% with a sensitivity of 64%.
+ 
 
  ##### Results Table 5: Undersampling
  
 ![image](https://user-images.githubusercontent.com/80365882/125183315-7c4d0d80-e1ca-11eb-8b39-598f57880c46.png)
 
-Undersampling results: balanced accuracy score is 53% overall, the precision is at 100% and the recall is 45%
+From the above table results , The balanced accuracy score is 52%.The high_risk precision is about 1% only with 61% sensitivity which makes a F1 of 2%.The low_risk population, its precision is almost 100% with a sensitivity of 45%.
  
   ##### Results Table 6: Combination (Over and Under) Sampling
   
 ![image](https://user-images.githubusercontent.com/80365882/125183323-8838cf80-e1ca-11eb-84ba-88bb81ce0561.png)
 
-Combination(over and undersampling) results: balanced accuracy score is 62% the precision is 100% and the recall is 54% overall
+Combination (Over and Under) Sampling table results show us , The balanced accuracy score is 62%.The high_risk precision is about 1% only with 70% sensitivity which makes a F1 of 2%.The low_risk population, its precision is almost 100% with a sensitivity of 54%.
 
+## Summary
 
- 
+Almost all the models used to perform weak precision in determining if a credit risk is high.But the Ensemble models brought a lot more improvment specially on the sensitivity of the high risk credits.
+From the results of output, I recommend Easy Ensemble AdaBoost Classifier model becouse of it's high accuracy score and good balance of precision and recall scores.from all the models.
  
