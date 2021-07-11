@@ -32,12 +32,14 @@ Finaly for Deliverable 3, By using your knowledge of the imblearn.ensemble libra
  
  ![image](https://user-images.githubusercontent.com/80365882/125183263-f92bb780-e1c9-11eb-95e2-5a66c52b7930.png)
 
+ The abover results show us, The balanced accuracy score is 79%.The high_risk precision is about 4% only with 68% sensitivity which makes a F1 of 7%.
+Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 90%.
  
   ### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
   
   ![image](https://user-images.githubusercontent.com/80365882/125183271-09dc2d80-e1ca-11eb-86fc-200bc2db9d42.png)
 
- 
+
  ##### Table 2: Easy Ensemble AdaBoost Classifier
  
 
